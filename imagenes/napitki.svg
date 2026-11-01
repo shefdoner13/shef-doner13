@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Стакан газированного напитка">
+  <defs>
+    <radialGradient id="fondo4" cx=".3" cy=".2" r=".9">
+      <stop offset="0" stop-color="#ffe6c4"/>
+      <stop offset="1" stop-color="#ffd19a"/>
+    </radialGradient>
+    <linearGradient id="drink" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a8431b"/>
+      <stop offset="1" stop-color="#5e1d0c"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity=".2"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#fondo4)"/>
+  <circle cx="90" cy="90" r="100" fill="#8f1d1d" opacity=".1"/>
+  <circle cx="320" cy="320" r="95" fill="#f08a24" opacity=".22"/>
+
+  <ellipse cx="200" cy="336" rx="105" ry="20" fill="#8f1d1d" opacity=".16"/>
+
+  <path d="M132 128h136l-14 190c-1 12-12 20-24 20h-60c-12 0-23-8-24-20z" fill="url(#glass)" stroke="#ffffff" stroke-width="4" stroke-opacity=".7"/>
+  <path d="M142 160h116l-9 152c-1 8-8 13-16 13h-66c-8 0-15-5-16-13z" fill="url(#drink)"/>
+  <path d="M142 160h116l-2 30H144z" fill="#d98f43" opacity=".8"/>
+
+  <g fill="#ffd9a8" opacity=".85">
+    <circle cx="168" cy="222" r="6"/>
+    <circle cx="224" cy="202" r="5"/>
+    <circle cx="204" cy="252" r="7"/>
+    <circle cx="242" cy="270" r="5"/>
+    <circle cx="176" cy="292" r="5"/>
+    <circle cx="214" cy="304" r="4"/>
+  </g>
+
+  <g transform="rotate(14 250 150)">
+    <rect x="242" y="84" width="14" height="150" rx="7" fill="#f08a24"/>
+    <rect x="242" y="84" width="14" height="40" rx="7" fill="#fff" opacity=".6"/>
+  </g>
+
+  <g>
+    <circle cx="300" cy="150" r="26" fill="#f2a13c"/>
+    <circle cx="300" cy="150" r="20" fill="#ffc46b"/>
+    <path d="M300 130v40M280 150h40M286 136l28 28M314 136l-28 28" stroke="#f2a13c" stroke-width="3" opacity=".7"/>
+  </g>
+</svg>

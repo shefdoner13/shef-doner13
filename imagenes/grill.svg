@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Курица на гриле">
+  <defs>
+    <radialGradient id="fondo3" cx=".3" cy=".2" r=".9">
+      <stop offset="0" stop-color="#ffe6c4"/>
+      <stop offset="1" stop-color="#ffd19a"/>
+    </radialGradient>
+    <linearGradient id="chicken" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e8a04d"/>
+      <stop offset="1" stop-color="#b05f2c"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#fondo3)"/>
+  <circle cx="310" cy="90" r="105" fill="#f08a24" opacity=".22"/>
+  <circle cx="70" cy="320" r="85" fill="#8f1d1d" opacity=".1"/>
+
+  <g opacity=".55">
+    <path d="M118 352c-16-30 6-46 2-70 26 14 32 40 26 54 12-8 16-22 12-36 26 20 24 52 4 66z" fill="#f2701f"/>
+    <path d="M262 352c-16-30 6-46 2-70 26 14 32 40 26 54 12-8 16-22 12-36 26 20 24 52 4 66z" fill="#f2701f"/>
+  </g>
+
+  <g stroke="#4d2a17" stroke-width="9" stroke-linecap="round" opacity=".8">
+    <path d="M92 300h232"/>
+    <path d="M104 330h210"/>
+  </g>
+
+  <g transform="rotate(-18 200 200)">
+    <ellipse cx="196" cy="212" rx="78" ry="52" fill="url(#chicken)"/>
+    <circle cx="228" cy="174" r="40" fill="#d98f43"/>
+    <circle cx="236" cy="164" r="30" fill="#e8a04d"/>
+    <path d="M128 190c-26-12-42 6-40 30s26 34 48 24z" fill="#f2d3a8"/>
+    <path d="M94 240c-14 12-12 30 4 38 14 6 28-2 32-16" fill="none" stroke="#f2d3a8" stroke-width="16" stroke-linecap="round"/>
+    <g fill="#8c3f1c" opacity=".55">
+      <path d="M176 190c10 6 18 4 26 10l-8 10c-10-4-16-4-24-8z"/>
+      <path d="M208 226c10 4 16 2 24 8l-8 10c-8-4-14-4-22-8z"/>
+      <path d="M152 232c8 6 14 4 20 10l-8 8c-8-4-12-4-18-8z"/>
+    </g>
+    <circle cx="248" cy="158" r="4" fill="#3d1d0c"/>
+  </g>
+</svg>

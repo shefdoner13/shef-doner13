@@ -1,0 +1,8 @@
+.agent/
+.venv/
+node_modules/
+build/
+.godot/
+__pycache__/
+.DS_Store
+*.log

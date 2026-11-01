@@ -1,0 +1,25 @@
+[
+  { "id": 1, "nombre": "Шаурма обычная", "categoria": "Шаурма", "precio": 280, "etiqueta": "Хит", "imagen": "imagenes/shaurma.svg", "descripcion": "Сочная курица, свежие овощи и фирменный соус в тонком лаваше." },
+  { "id": 2, "nombre": "Шаурма в сырном лаваше", "categoria": "Шаурма", "precio": 290, "imagen": "imagenes/shaurma.svg", "descripcion": "Всё та же шаурма, но лаваш с хрустящей сырной корочкой." },
+  { "id": 3, "nombre": "VIP донер", "categoria": "Шаурма", "precio": 330, "etiqueta": "VIP", "imagen": "imagenes/shaurma.svg", "descripcion": "Двойная порция мяса, овощи и щедрая порция соуса." },
+  { "id": 4, "nombre": "VIP донер сырный", "categoria": "Шаурма", "precio": 340, "etiqueta": "VIP", "imagen": "imagenes/shaurma.svg", "descripcion": "VIP-донер в сырном лаваше — сытно, сочно и очень нежно." },
+  { "id": 5, "nombre": "Шаурма в пите", "categoria": "Шаурма", "precio": 290, "imagen": "imagenes/shaurma.svg", "descripcion": "Ароматная курица и овощи в мягкой пшеничной пите." },
+  { "id": 6, "nombre": "Шаурма вегетарианская", "categoria": "Шаурма", "precio": 280, "etiqueta": "Вег", "imagen": "imagenes/shaurma.svg", "descripcion": "Овощи гриль, свежая зелень и соус — совсем без мяса." },
+  { "id": 7, "nombre": "Донер в лепешке", "categoria": "Шаурма", "precio": 300, "imagen": "imagenes/shaurma.svg", "descripcion": "Мясо и овощи в румяной лепешке с домашним соусом." },
+  { "id": 8, "nombre": "VIP донер в лепешке", "categoria": "Шаурма", "precio": 360, "etiqueta": "VIP", "imagen": "imagenes/shaurma.svg", "descripcion": "Большой донер с двойным мясом в подрумяненной лепешке." },
+
+  { "id": 9, "nombre": "Плов с говядиной", "categoria": "Горячее", "precio": 380, "imagen": "imagenes/goryachee.svg", "descripcion": "Рассыпчатый рис, нежная говядина и специи по-домашнему." },
+  { "id": 10, "nombre": "Манты с говядиной", "categoria": "Горячее", "precio": 350, "imagen": "imagenes/goryachee.svg", "descripcion": "Сочные манты ручной лепки, подаём со сметаной." },
+  { "id": 11, "nombre": "Жаркое по-домашнему с курицей", "categoria": "Горячее", "precio": 300, "imagen": "imagenes/goryachee.svg", "descripcion": "Курица, картофель и овощи, тушённые до мягкости." },
+  { "id": 12, "nombre": "Лагман чингисхан", "categoria": "Горячее", "precio": 320, "imagen": "imagenes/goryachee.svg", "descripcion": "Домашняя лапша, мясо и овощи в насыщенном бульоне." },
+  { "id": 13, "nombre": "Мастава с говядиной", "categoria": "Горячее", "precio": 300, "imagen": "imagenes/goryachee.svg", "descripcion": "Густой рисовый суп с говядиной и свежей зеленью." },
+  { "id": 14, "nombre": "Шурпа с говядиной", "categoria": "Горячее", "precio": 320, "imagen": "imagenes/goryachee.svg", "descripcion": "Наваристый бульон, крупные куски мяса и овощи." },
+
+  { "id": 15, "nombre": "Курица гриль", "categoria": "Гриль и соусы", "precio": 550, "etiqueta": "Хит", "imagen": "imagenes/grill.svg", "descripcion": "Целая курица на гриле с румяной корочкой и ароматными специями." },
+  { "id": 16, "nombre": "Лаваш для гриля", "categoria": "Гриль и соусы", "precio": 50, "imagen": "imagenes/grill.svg", "descripcion": "Свежий лаваш к грилю и соусам." },
+  { "id": 17, "nombre": "Соус томатный", "categoria": "Гриль и соусы", "precio": 50, "imagen": "imagenes/grill.svg", "descripcion": "Домашний томатный соус с лёгкой остринкой." },
+  { "id": 18, "nombre": "Соус чесночный", "categoria": "Гриль и соусы", "precio": 50, "imagen": "imagenes/grill.svg", "descripcion": "Нежный чесночный соус на сметанной основе." },
+
+  { "id": 19, "nombre": "Кола / Фанта / Спрайт · 1 л", "categoria": "Напитки", "precio": 150, "imagen": "imagenes/napitki.svg", "descripcion": "Классические газированные напитки на выбор." },
+  { "id": 20, "nombre": "Кола / Фанта / Спрайт · 0,5 л", "categoria": "Напитки", "precio": 100, "imagen": "imagenes/napitki.svg", "descripcion": "Классические газированные напитки на выбор." }
+]

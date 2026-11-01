@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Пример 2">
+<rect width="400" height="300" fill="#2c7da0" opacity=".16"/>
+<rect x="40" y="40" width="320" height="220" rx="16" fill="#2c7da0" opacity=".35"/>
+<circle cx="130" cy="130" r="40" fill="#2c7da0"/>
+<path d="M60 240 L160 150 L230 210 L290 170 L340 240 Z" fill="#2c7da0" opacity=".8"/>
+<text x="200" y="285" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#2c7da0">2</text>
+</svg>

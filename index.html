@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#4d0c0c">
+<meta name="description" content="Шеф Донер 13 — самая вкусная шаверма, донеры, плов и гриль круглосуточно. ул. Генерала Белова, 9. Заказ по телефону +7-926-388-13-12.">
+<title>Шеф Донер 13 — шаверма и донеры круглосуточно</title>
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<header class="cabecera">
+  <a class="marca" href="#inicio" aria-label="Шеф Донер 13 — на главную">
+    <span class="marca-icono" aria-hidden="true">
+      <svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M13.5 2c.5 3-1.5 4-1.5 6 0 .8.5 1.5 1.2 1.5.8 0 1.3-.7 1.3-1.5 0-.6-.2-1.2-.5-1.8 2.5 1.6 4 4.2 4 7.3a6.5 6.5 0 1 1-13 0C5 10 7 7.5 9.5 6c-.4 2.4.8 3.4.8 4.5 0 .9.5 1.5 1.2 1.5s1.3-.6 1.3-1.5c0-2-1.2-3.4-.7-5.5.4-1.6 1-2.9 1.4-3z"/></svg>
+    </span>
+    <span class="marca-texto">
+      <span class="marca-nombre">Шеф Донер 13</span>
+      <span class="marca-estado"><span class="punto" aria-hidden="true"></span>Круглосуточно</span>
+    </span>
+  </a>
+  <a class="boton-llamar" href="tel:+79263881312">
+    <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.2 1z"/></svg>
+    <span>Позвонить</span>
+  </a>
+</header>
+
+<main id="inicio">
+  <section class="portada" aria-labelledby="portada-titulo">
+    <img src="imagenes/portada.svg" alt="Аппетитная шаверма с мясом и овощами на гриле" width="1200" height="750" fetchpriority="high">
+    <div class="portada-texto">
+      <p class="sobrelinea">Шаверма · Донер · Гриль</p>
+      <h1 id="portada-titulo">Самая вкусная шаверма</h1>
+      <p class="portada-sub">Сочное мясо, свежие овощи и фирменный соус. Готовим круглосуточно — заходите за горячим.</p>
+      <div class="portada-acciones">
+        <a class="boton boton-primario" href="#menu">Смотреть меню</a>
+        <a class="boton boton-secundario" href="tel:+79263881312">+7-926-388-13-12</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="menu" class="menu-bloque" aria-labelledby="menu-titulo">
+    <p class="sobrelinea-roja">Наше меню</p>
+    <h2 id="menu-titulo" class="titulo-seccion">Готовим с душой</h2>
+
+    <div class="buscador">
+      <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="m16 16 4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <input id="busqueda" type="search" placeholder="Найти шаверму, плов, соус…" aria-label="Поиск по меню" autocomplete="off">
+    </div>
+
+    <div class="filtros" id="categoria" role="group" aria-label="Категории меню"></div>
+
+    <div id="catalogo" aria-live="polite"></div>
+    <p id="vacio" class="nota" hidden>Ничего не нашлось. Попробуйте другое название.</p>
+  </section>
+
+  <section class="direccion" aria-labelledby="direccion-titulo">
+    <div class="direccion-info">
+      <p class="sobrelinea-clara">Ждём вас</p>
+      <h2 id="direccion-titulo">Шеф Донер 13</h2>
+      <ul class="datos">
+        <li>
+          <svg viewBox="0 0 24 24" width="21" height="21" aria-hidden="true"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>
+          <span>ул. Генерала Белова, 9</span>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" width="21" height="21" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 7v5l3.2 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <span>Круглосуточно, без выходных</span>
+        </li>
+      </ul>
+    </div>
+    <a class="boton-pedir" href="tel:+79263881312">
+      <span class="boton-pedir-icono" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.2 1z"/></svg>
+      </span>
+      <span class="boton-pedir-texto">
+        <strong>Позвонить и заказать</strong>
+        <span>+7-926-388-13-12</span>
+      </span>
+    </a>
+  </section>
+
+  <section class="ruta" aria-labelledby="ruta-titulo">
+    <div class="ruta-cabecera">
+      <span class="ruta-icono" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M13.5 5.5c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zM9.8 8.9 7 23h2.1l1.8-8 2.1 2v6h2v-7.5l-2.1-2 .6-3C14.8 12 16.8 13 19 13v-2c-1.9 0-3.5-1-4.3-2.4l-1-1.6c-.4-.6-1-1-1.7-1-.3 0-.5.1-.8.1L6 8.3V13h2V9.6l1.8-.7z"/></svg>
+      </span>
+      <div>
+        <p class="sobrelinea-roja">Пешком от метро</p>
+        <h2 id="ruta-titulo">Как нас найти</h2>
+      </div>
+    </div>
+    <ul class="ruta-lista">
+      <li>
+        <span class="ruta-metro" aria-hidden="true">М</span>
+        <span class="ruta-texto"><strong>Метро Домодедовская</strong> — 15 минут пешком</span>
+      </li>
+      <li>
+        <span class="ruta-metro" aria-hidden="true">М</span>
+        <span class="ruta-texto"><strong>Метро Шипиловская</strong> — 19 минут пешком</span>
+      </li>
+    </ul>
+  </section>
+</main>
+
+<footer class="pie">
+  <p>© <span data-anio></span> Шеф Донер 13 · ул. Генерала Белова, 9 · Круглосуточно</p>
+</footer>
+
+<div class="barra-fija">
+  <a href="tel:+79263881312">
+    <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.2 1z"/></svg>
+    Позвонить и заказать
+  </a>
+</div>
+
+<dialog id="ficha" class="ficha" aria-label="Карточка блюда">
+  <button class="cerrar" type="button" aria-label="Закрыть карточку">
+    <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+  </button>
+  <div id="ficha-contenido"></div>
+</dialog>
+
+<script src="js/app.js"></script>
+</body>
+</html>
